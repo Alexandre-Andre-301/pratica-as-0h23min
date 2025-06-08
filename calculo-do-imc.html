@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador do IMC</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    input {
+      margin: 10px;
+      padding: 10px;
+      width: 200px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+    p {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+  </style>
+  <body>
+    <h1>Identificador do IMC</h1>
+    <input type="number" id="peso" placeholder="Seu peso(kg)" />
+    <input type="number" id="altura" placeholder="Sua altura(m)" /> <br />
+    <button onclick="imc()">Calcular IMC</button>
+    <p id="resul"></p>
+  </body>
+  <script src="imc.js"></script>
+</html>

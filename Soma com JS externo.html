@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exercicio numero 2 do chatgpt</title>
+    <style>
+      body {
+        font-family: Arial;
+        background: #f0f0f0;
+        text-align: center;
+        padding: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      input {
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #218838;
+      }
+      p {
+        font-size: 1.2em;
+        color: #555;
+      }
+      #reul {
+        font-weight: bold;
+        color: #d9534f;
+      }
+      #p1 {
+        width: 150px;
+      }
+      #p2 {
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>verficador de idade</h1>
+    <input type="number" id="p1" placeholder="ano de nascimento" /><br />
+    <button id="p2" onclick="calcular()">Verificar idade</button>
+    <p id="reul"></p>
+    <script src="calcular.js"></script>
+  </body>
+</html>
